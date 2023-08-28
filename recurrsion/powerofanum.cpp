@@ -21,6 +21,7 @@ int pow2(int m,int n){
     }
 
 }
+
 int main(){
     int r=pow2(3,4);
     cout<<r<<endl;

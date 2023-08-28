@@ -3,7 +3,7 @@
 using namespace std;
 
 int missing_num(int arr[],int n){
-    int sum=0,total=0;
+    int sum=0,total=0;//here n is the last number 
     for(int i=0;i<n-1;i++){
         sum+=arr[i];
     }
@@ -11,7 +11,7 @@ int missing_num(int arr[],int n){
     return total-sum;
 }
 int missing_num2(int arr[],int n){
-    int i=0;
+    int i=0;//here n is the size of the array
     int diff=arr[0];
     int var=arr[0];
     for(int i=0;i<n;i++){
@@ -52,6 +52,6 @@ void missing_mul2(int arr[],int n){
 }
 int main(){
     int arr[8]={11,12,13,14,15,16,19,20};
-    missing_mul2(arr,8);
+    missing_mul(arr,8);
     return 0;
 }
