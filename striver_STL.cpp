@@ -148,5 +148,12 @@ void explainMap(){
     cout<<mpp[5];
 
     auto it=mpp.find(3);
-    cout<<*(it).second;
+    // cout<<*(it).second;
 }
+
+// void explainAlgo(){
+//     sort(a,a+n);
+//     sort(v.begin(),v.end());
+//     sort(v.begin(),v.end(),greater<int>);
+
+// }

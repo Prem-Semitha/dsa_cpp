@@ -64,7 +64,8 @@ int main(){
     int arr1[]={1,2,3,4,5};
     int arr2[]={2,4,6,8,10};
     int arr3[11];
-    intersection(arr1,arr2,arr3);
+    // intersection(arr1,arr2,arr3);
+    uni(arr1,arr2,arr3);
     display(arr3);
     return 0;
 }
